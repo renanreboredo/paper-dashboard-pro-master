@@ -28,7 +28,8 @@
     "vue-form-wizard": "^0.7.0",
     "vue-nav-tabs": "^0.5.4",
     "vue-notifyjs": "^0.2.0",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "yarn": "^1.7.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -107,6 +108,6 @@
   "engines": {
     "node": "8.9.4",
     "npm": "5.6.0",
-    "yarn": "1.6.0"
+    "yarn": "1.7.0"
   }
 }
