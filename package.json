@@ -1,12 +1,12 @@
 {
   "name": "vue-paper-dashboard-pro",
   "version": "1.1.0",
-  "main": "build/dev-server.js",
+  "main": "server.js",
   "description": "A premium Vue.js admin dashboard for bootstrap. Coded by Cristi Jora, designed by Creative Tim.",
   "author": "cristian.jora <cristian.jora@corebuild.eu>",
   "private": true,
   "scripts": {
-    "start": "yarn build",
+    "start": "node config/index.js build && node server.js",
     "dev": "cross-env ENABLE_ESLINT=true node build/dev-server.js",
     "build": "cross-env ENABLE_ESLINT=true node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
