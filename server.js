@@ -2,10 +2,10 @@ const express = require('express')
 const path = require('path')
 const app = express()
 
-app.use(express.static('dist'))
+app.use(express.static('/app/dist'))
 
 app.get('/*', function(req, res) {
-  res.sendFile(path.join('dist/index.html'))
+  res.sendFile(path.join('/app/dist/index.html'))
 })
 
 app.listen(process.env.PORT || 8080)
